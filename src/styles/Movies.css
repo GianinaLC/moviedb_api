@@ -1,0 +1,33 @@
+.container-movies{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.div-movie{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 15px 5px;
+    color: white;
+    border-radius: 15px;
+}
+
+.div-movie h3, h4{
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+}
+
+.div-movie h4{
+    font-weight: 100;
+}
+
+.img-movies{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
